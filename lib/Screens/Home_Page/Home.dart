@@ -32,6 +32,41 @@ class _HomePageState extends State<HomePage> {
 
       ),
     )),
+        Positioned(child: InkWell(child: SvgPicture.asset('assets/illustrations/Vector1.svg')),
+        top:getHeight(56),
+          right: getWidth(16),
+        ),
+        Positioned(child: InkWell(
+          child: Icon(Icons.arrow_back_ios_sharp,color: Colors.white,),
+          
+        ),
+        left: getWidth(16),
+          top: getHeight(56),
+        ),
+        
+        Positioned(
+          child: Text('Consulta y seguimiento para el \nprimer trimestre de embarazo',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: getHeight(25),
+            fontWeight: FontWeight.w600,
+          ),
+          
+          ),
+          left: getWidth(16),
+          top: getHeight(110),
+        ),
+        Positioned(child: Text('En estas sesiones de Fisioterapia virtual, te \nenseñamos a cuidar tu cuerpo, mantenerlo en \nforma de forma muy sencilla.',
+        style: TextStyle(
+          color: Colors.white,
+          fontWeight: FontWeight.w400,
+          fontSize: getHeight(14),
+        ),
+        ),
+        left: getWidth(16),
+          top: getHeight(180),
+        )
+        
     ],
     ),
     SizedBox(height: getHeight(20),),
