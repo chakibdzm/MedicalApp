@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:medicalapp/Screens/Home_Page/iNFOS.dart';
 import 'package:medicalapp/Screens/Onboarding/Onboarding.dart';
 
 void main(){
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         highlightColor: Colors.transparent,
         primarySwatch: Colors.blue,
       ),
-      home:Onboarding(),
+      home:Info_screen(),
     );
   }
 }
